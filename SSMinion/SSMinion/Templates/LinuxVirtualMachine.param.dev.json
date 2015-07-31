@@ -1,0 +1,26 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+
+	    "adminUsername": {
+            "value": "AzAdmin"
+	    },
+	    "adminPassword": {
+		    "value": "AzP@ssword1"
+	    },
+	    "newStorageAccountName":{
+		    "value": "ssminion1"
+	    },
+	    "numberOfInstances": {
+		    "value": 2
+	    },
+	    "vmsize": {
+		    "value": "Standard_DS2"
+	    },
+	    "dnsNameforLBIP":{
+		    "value": "ssminion1"
+	    }
+
+    }
+}
